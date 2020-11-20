@@ -20,6 +20,7 @@ class School
     @roster.collect do |grade, name|
       if grade_num == grade
       name
+      end
     end 
   end 
   
