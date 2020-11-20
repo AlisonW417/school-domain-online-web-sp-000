@@ -17,7 +17,7 @@ class School
   end
   
   def grade(grade_num)
-    @roster.collect do |grade, name|
+    @roster.each do |grade, name|
       if grade_num == grade
       name
       end
