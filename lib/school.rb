@@ -7,8 +7,14 @@ class School
     @roster = {}
   end 
   
-  def add_student(name, grade)
+  def add_student(grade, name)
     @roster[grade] = []
+    @roster.each do |grade, name|
+      if grade = @roster[grade]
+        
+    end 
+      
+    
     @roster[grade] << name
   end 
   
