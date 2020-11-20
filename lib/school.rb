@@ -18,7 +18,7 @@ class School
   
   def grade(grade)
     @roster.collect do |grade, name|
-      grade
+      name
     end 
   end 
   
