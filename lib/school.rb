@@ -19,7 +19,7 @@ class School
   def grade(grade_num)
     @roster.each do |grade, name|
       if grade_num == grade
-      name
+      @roster[grade]
       end
     end 
   end 
